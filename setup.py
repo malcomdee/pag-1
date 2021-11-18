@@ -7,7 +7,6 @@ app.secret_key = 'keep it secret, keep it safe'
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-
 credential = ServiceAccountCredentials.from_json_keyfile_name("credentials.json",
                                                               ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"])
 
