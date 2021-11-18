@@ -1,4 +1,4 @@
 Flask
 gspread
 Gunicorn
-ServiceAccountCredentials
+jsonify
